@@ -6,7 +6,7 @@ session_start(); //iniciar sesion
 $modelProducto= new ModelProducto();//invocacion al modelo
 $opcion = $_REQUEST['opcion'];
 
-switch ($opcion) {
+switch ($opcion) { 
     case "listarProductos":
         $listadoE = $modelProducto->getProductos();
         $_SESSION['listadoE'] = serialize($listadoE);

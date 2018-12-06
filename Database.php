@@ -3,11 +3,11 @@
 class DataBase {
 
     //Propiedades estaticas con la informacion de la conexion (DSN):
-    private static $dbName = 'productosCloud';
-    private static $dbHost = 'localhost';
+    private static $dbName = 'd1hlg5jqlng4nm';
+    private static $dbHost = 'ec2-54-197-249-140.compute-1.amazonaws.com';
     private static $port = '5432';
-    private static $dbUsername = 'postgres';
-    private static $dbUserPassword = '1996';  
+    private static $dbUsername = 'dniomagyuoebvr';
+    private static $dbUserPassword = '9db80a284730228d50aa380b36336801efbd580916ddd494c511b27cdd497658';  
     private static $conexion = null;
 
     public function __construct() {

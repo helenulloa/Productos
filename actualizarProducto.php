@@ -9,6 +9,7 @@ include './ModelProducto.php';
         <title></title>
     </head>
     <body>
+
         <?php
         $codig = unserialize($_SESSION['producto']);
         ?>
